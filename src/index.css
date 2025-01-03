@@ -1,0 +1,26 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  background: linear-gradient(135deg, #f6f8fc 0%, #e9effd 100%);
+  min-height: 100vh;
+}
+
+.gradient-card {
+  background: linear-gradient(135deg, #ffffff 0%, #f8faff 100%);
+  transition: all 0.3s ease;
+}
+
+.gradient-card:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1);
+}
+
+.nav-link {
+  transition: all 0.3s ease;
+}
+
+.nav-link:hover {
+  transform: translateY(-1px);
+}
